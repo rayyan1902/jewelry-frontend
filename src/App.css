@@ -1,38 +1,282 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+.navbar_brand{
+    margin-left: 200px;
+    margin-right: 360px;
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.typed-item {
+    display: none; /* Initially hide all messages */
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .is-visible {
+    display: block; /* Show the message with is-visible class */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .is-hidden {
+    display: none; /* Hide the message with is-hidden class */
   }
+  
+  .top-header {
+    background-color: black;
+  }
+
+.typewrite{
+    margin-right: 550px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social-icon {
+    color: white;
+  }
+
+.top-header{
+    color: white;
+}
+
+.top-nav{
+    margin-left: 1100px;
+    position: fixed;
+    z-index: 2;
+}
+
+.top-navbar{
+    margin-left: 20px;
+    width: 100%;
+}
+
+
+
+.big-image{
+    width: 80%;
+}
+
+.top-element{
+    color: white;
+    font-weight: bold;
+}
+
+.right-menu{
+    margin-right: 200px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+.carousel-image {
+    width: 25%;
+    margin-right: 20px;
+    margin-bottom: -25px;
+}
+
+.navbar-menu{
+    margin-left: 20px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 140px;
+    right: 400px;
+    left: 0;
+    padding: 10px;
+  }
+  
+  .caption-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  .caption-description {
+    color: white;
+    font-size: 16px;
+  }
+
+.side-text{
+    position: absolute;
+    right: 90px;
+    bottom: 90px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.side-text-second{
+    position: absolute;
+    right: 70px;
+    bottom: 70px;
+    color: white;
+}
+
+.side-text-third{
+    position: absolute;
+    right: 80px;
+    bottom: 0px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.side-text-fouth{
+    position: absolute;
+    right: 70px;
+    bottom: -3px;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+#features{
+    background-color: white;
+    position: relative;
+    padding: 4% 0;
+    text-align: center;
+    font-weight: 400;
+    z-index: 3;
+}
+
+.feature-box{
+    padding: 2%;
+}
+.firsthead{
+    padding-left: 20px;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 18px;
+}
+
+.icon:hover{
+    color:#ff4c68
+}
+
+.products{
+    margin-left: 60px;
+    display: flex;
+}
+
+.card{
+    margin-right: 20px;
+}
+
+.product-btn{
+    margin-left: 50px;
+}
+
+.branding{
+    position: relative;
+    display: flex;
+}
+.branding-products{
+    width: 60%;
+    margin-top: 20px;
+}
+
+.branding-text{
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 40px;
+}
+
+.branding-text-second{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 40px;
+}
+
+.branding-text-third{
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    left: 40px;
+    text-decoration: underline;
+}
+
+
+.branding-card{
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+.bottom-products{
+    margin-top: 20px;
+}
+
+.last-picture{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+
+.picture-btn{
+    position: absolute;
+    border-radius: 200px;
+    border: 0;
+    color: black;
+    background-color: yellow;
+    z-index: 2;
+    top: 300px;
+    right: 600px;
+}
+
+.picture-p{
+    text-align: center;
+    position: absolute;
+    border: 0;
+    color: white;
+    z-index: 2;
+    top: 350px;
+    right: 250px;
+    font-size: 20px;
+}
+
+.picture-btn-last{
+    text-align: center;
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 450px;
+    right: 540px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 0;
+}
+
+.footer{
+    margin-top: 60px;
+    display: flex;
+    gap: 700px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+
+.form-inline{
+    display: flex;
+}
+
+.footer-final{
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    padding-top: 100px;
+    padding-left: 20px;
 }
